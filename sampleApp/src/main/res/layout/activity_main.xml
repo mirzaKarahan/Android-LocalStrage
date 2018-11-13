@@ -13,6 +13,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Save Private"
+        android:layout_below="@id/btnSave"
+        android:id="@+id/btnSavePrivate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Save"
         android:layout_below="@id/edtValue"
         android:id="@+id/btnSave"/>
