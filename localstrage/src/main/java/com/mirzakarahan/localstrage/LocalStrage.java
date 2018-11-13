@@ -15,22 +15,22 @@ public class LocalStrage {
     }
     public static void setValue(Context context,String key,Integer value){
         SharedPreferences.Editor editor = getSharedPrefences(context).edit();
-        editor.putInt(key,value);
+        editor.putInt(key,Integer.valueOf(value));
         editor.apply();
     }
     public static void setValue(Context context,String key,Boolean value){
         SharedPreferences.Editor editor = getSharedPrefences(context).edit();
-        editor.putBoolean(key,value);
+        editor.putBoolean(key,Boolean.valueOf(value));
         editor.apply();
     }
     public static void setValue(Context context,String key,float value){
         SharedPreferences.Editor editor = getSharedPrefences(context).edit();
-        editor.putFloat(key,value);
+        editor.putFloat(key,Float.valueOf(value));
         editor.apply();
     }
     public static void setValue(Context context,String key,long value){
         SharedPreferences.Editor editor = getSharedPrefences(context).edit();
-        editor.putLong(key,value);
+        editor.putLong(key,Long.valueOf(value));
         editor.apply();
     }
 
