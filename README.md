@@ -1,6 +1,12 @@
 [![](https://jitpack.io/v/mirzaKarahan/Android-LocalStrage.svg)](https://jitpack.io/#mirzaKarahan/Android-LocalStrage)
 
-How to Use
+How to using | Kullanımı
+![Example1](gif/LocalStroge_get.gif)
+![Example1](gif/LocalStroge_set.gif)
+
+
+How to Install
+
 In your project build.gradle. Add the following lines
 
 Step 1. Add the JitPack repository to your build file
