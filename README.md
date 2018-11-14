@@ -1,7 +1,11 @@
 [![](https://jitpack.io/v/mirzaKarahan/Android-LocalStrage.svg)](https://jitpack.io/#mirzaKarahan/Android-LocalStrage)
 
 How to using | Kullanımı
+
+Get | Kaydedilmiş bir veriyi çağırmak
 ![Example1](gif/LocalStroge_get.gif)
+
+Set | Bir veriyi kayıt etmek
 ![Example1](gif/LocalStroge_set.gif)
 
 
