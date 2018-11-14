@@ -63,8 +63,8 @@ public class LocalStrage {
      * @param key
      * @return
      */
-    public static Boolean getValue(Context context,String key){
-        return getSharedPrefences(context).getBoolean(key,false);
+    public static Boolean getValue(Context context,String key,Boolean defaultVal){
+        return getSharedPrefences(context).getBoolean(key,defaultVal);
     }
     /**
      * @param context
