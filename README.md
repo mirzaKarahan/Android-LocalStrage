@@ -1,4 +1,5 @@
 [![](https://jitpack.io/v/mirzaKarahan/Android-LocalStrage.svg)](https://jitpack.io/#mirzaKarahan/Android-LocalStrage)
+
 This is for SharedPreferences basic using
 How to using | Kullanımı
 
